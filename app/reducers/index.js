@@ -1,7 +1,7 @@
-import { combineReducers } from 'redux';
+import { combineReducers } from 'redux'
 
-import currencies from './currencies';
+import passengers from './passengers'
 
 export default combineReducers({
-  currencies,
-});
+  passengers,
+})
